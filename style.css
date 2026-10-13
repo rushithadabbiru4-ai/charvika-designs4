@@ -1,0 +1,105 @@
+<link rel="stylesheet" href="style.css">
+<head>
+    <title>Spice Haven</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #d4a017;
+    font-size: 50px;
+}
+
+h2 {
+    color: #d4a017;
+}
+
+p {
+    font-size: 20px;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice Haven | Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to Spice Haven</h1>
+        <p>Authentic Flavours. Unforgettable Moments.</p>
+    </header>
+
+    <section>
+        <h2>Our Menu</h2>
+
+        <div class="menu-item">
+            <p>Chicken Biryani <span>₹299</span></p>
+        </div>
+
+        <div class="menu-item">
+            <p>Paneer Tikka <span>₹199</span></p>
+        </div>
+
+        <div class="menu-item">
+            <p>Veg Biryani <span>₹229</span></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Spice Haven | Made with ❤️</p>
+    </footer>
+
+</body>
+</html>body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff8ed;
+    color: #42210b;
+    text-align: center;
+}
+
+header {
+    background-color: #7b241c;
+    color: white;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+section {
+    padding: 30px 20px;
+}
+
+.menu-item {
+    background-color: white;
+    max-width: 400px;
+    margin: 15px auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+.menu-item span {
+    float: right;
+    color: #a93226;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #42210b;
+    color: white;
+    padding: 15px;
+}
